@@ -29,4 +29,20 @@ Blogging in GitHub pages is a way to learn and code at the same time.
         <li>I enjoy coding</li>
     </ol>
 </div>
+<br><br><br>
+<button onclick="createItem()">Create a to-do item</button>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function createItem()
+            {
+                var todo = prompt("Enter to-do item:");
+                indexBlogs.mb.createElement("li");
+            }
+        </script>
+    </body>
+</html>
+
 
