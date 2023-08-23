@@ -39,7 +39,7 @@ Blogging in GitHub pages is a way to learn and code at the same time.
             function createItem()
             {
                 var todo = prompt("Enter to-do item:");
-                indexBlogs.mb.createElement("li");
+                indexBlogs.createElement("li");
             }
         </script>
     </body>
