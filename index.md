@@ -17,8 +17,16 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 <!-- ## MY PAGE -->
 <h1>Hello, Welcome to my page!</h1>
 
-<ol>
-    <li></li>
-</ol>
-<h2>About Me:</h2>
-<img src="images/about-me.png" alt="about-me" style="width:200px;height:300px">
+
+<h2 style="padding-left:2em">About Me:</h2>
+<p style="float:right;clear:right;display:block;padding-right:150px"><img src="images/about-me.png" alt="about-me" style="width:200px;height:250px"></p>
+<div style="padding-left:4em">    
+    <ol style="font-size:15px">
+        <li>I was born in South Korea</li>
+        <li>I have a dog <br><img src="images/dog.jpg" alt = "dog" style="width:70px;height:100px"> </li>
+        <li>I like music</li>
+        <li>I play the violin</li>
+        <li>I enjoy coding</li>
+    </ol>
+</div>
+
